@@ -81,11 +81,11 @@
 <footer class="app-footer">
     <div>
         <a href="https://infyom.com">InfyOm </a>
-        <span>&copy; {{date("Y")}} InfyOmLabs.</span>
+        <span>&copy; {{date("Y")}} hublink.</span>
     </div>
     <div class="ml-auto">
         <span>Powered by</span>
-        <a href="https://coreui.io">CoreUI</a>
+        <a href="https://hublink.az">hublink</a>
     </div>
 </footer>
 </body>
