@@ -21,9 +21,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
-        <img class="navbar-brand-full" src="https://hublink.az/public/images/media/1649489438blue_logo_150x150.png" width="30" height="30"
+        <img class="navbar-brand-full" src="https://hublink.az/public/images/media/1649502681logo.png" width="100"
              alt="Hublinkaz Logo">
-        <img class="navbar-brand-minimized" src="https://hublink.az/public/images/media/1649489438blue_logo_150x150.png" width="30"
+        <img class="navbar-brand-minimized" src="https://hublink.az/public/images/media/1649502961logo_min.png" width="30"
              height="30" alt="Hublinkaz Logo">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
