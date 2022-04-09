@@ -22,9 +22,9 @@
     </button>
     <a class="navbar-brand" href="#">
         <img class="navbar-brand-full" src="https://hublink.az/public/images/media/1649489438blue_logo_150x150.png" width="30" height="30"
-             alt="InfyOm Logo">
+             alt="Hublinkaz Logo">
         <img class="navbar-brand-minimized" src="https://hublink.az/public/images/media/1649489438blue_logo_150x150.png" width="30"
-             height="30" alt="InfyOm Logo">
+             height="30" alt="Hublinkaz Logo">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -80,7 +80,7 @@
 </div>
 <footer class="app-footer">
     <div>
-        <a href="https://infyom.com">InfyOm </a>
+        <a href="https://hublink.az">Hublinkaz </a>
         <span>&copy; {{date("Y")}} hublink.</span>
     </div>
     <div class="ml-auto">

@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\CoreUITemplates;
+namespace Hublinkaz\CoreUITemplates;
 
 use Illuminate\Support\ServiceProvider;
 
