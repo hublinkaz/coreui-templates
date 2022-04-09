@@ -1,9 +1,9 @@
 {
-    "name": "infyomlabs/coreui-templates",
+    "name": "hublinkaz/coreui-templates",
     "type": "library",
-    "description": "CoreUI templates for InfyOm Laravel Generator",
+    "description": "CoreUI templates for hublinkaz Laravel Generator",
     "keywords": [
-        "infyom",
+        "hublinkaz",
         "laravel",
         "generator",
         "coreui",
@@ -13,8 +13,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "Ağa MUstafayev",
+            "email": "info@hublink.az"
         }
     ],
     "require": {
@@ -23,20 +23,20 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\CoreUITemplates\\": "src/"
+            "Hublinkaz\\CoreUITemplates\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\InfyOm\\CoreUITemplates\\CoreUITemplatesServiceProvider"
+                "\\Hublinkaz\\CoreUITemplates\\CoreUITemplatesServiceProvider"
             ]
         }
     },
     "funding": [
         {
-            "type": "opencollective",
-            "url": "https://opencollective.com/infyomlabs"
+            "type": "",
+            "url": ""
         }
     ]
 }

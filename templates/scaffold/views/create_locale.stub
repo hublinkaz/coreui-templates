@@ -3,9 +3,9 @@
 @section('content')
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-         <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}">@lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')</a>
+         <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}">{{__('$MODEL_NAME_PLURAL_CAMEL$')}}</a>
       </li>
-      <li class="breadcrumb-item active">@lang('crud.add_new')</li>
+      <li class="breadcrumb-item active">{{__('crud.add_new')}}</li>
     </ol>
      <div class="container-fluid">
           <div class="animated fadeIn">
@@ -15,7 +15,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <i class="fa fa-plus-square-o fa-lg"></i>
-                                <strong>Create @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')</strong>
+                                <strong>Create {{__('$MODEL_NAME_PLURAL_CAMEL$.singular')}}</strong>
                             </div>
                             <div class="card-body">
                                 {!! Form::open(['route' => '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store'$FILES$]) !!}

@@ -3,9 +3,9 @@
 @section('content')
     <ol class="breadcrumb">
           <li class="breadcrumb-item">
-             <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}">@lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')</a>
+             <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}">{{__('$MODEL_NAME_PLURAL_CAMEL$')}}</a>
           </li>
-          <li class="breadcrumb-item active">@lang('crud.edit')</li>
+          <li class="breadcrumb-item active">{{__('crud.edit')}}</li>
         </ol>
     <div class="container-fluid">
          <div class="animated fadeIn">
@@ -15,7 +15,7 @@
                       <div class="card">
                           <div class="card-header">
                               <i class="fa fa-edit fa-lg"></i>
-                              <strong>Edit @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')</strong>
+                              <strong>{{__('Edit $MODEL_NAME_PLURAL_CAMEL$.singular')}}</strong>
                           </div>
                           <div class="card-body">
                               {!! Form::model($$MODEL_NAME_CAMEL$, ['route' => ['$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.update', $$MODEL_NAME_CAMEL$->$PRIMARY_KEY_NAME$], 'method' => 'patch'$FILES$]) !!}

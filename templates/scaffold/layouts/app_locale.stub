@@ -21,9 +21,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
-        <img class="navbar-brand-full" src="https://assets.infyom.com/logo/blue_logo_150x150.png" width="30" height="30"
+        <img class="navbar-brand-full" src="https://hublink.az/public/images/media/1649489438blue_logo_150x150.png" width="30" height="30"
              alt="InfyOm Logo">
-        <img class="navbar-brand-minimized" src="https://assets.infyom.com/logo/blue_logo_150x150.png" width="30"
+        <img class="navbar-brand-minimized" src="https://hublink.az/public/images/media/1649489438blue_logo_150x150.png" width="30"
              height="30" alt="InfyOm Logo">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
@@ -47,22 +47,22 @@
                     <strong>Account</strong>
                 </div>
                 <a class="dropdown-item" href="#">
-                    <i class="fa fa-envelope-o"></i> @lang('auth.app.messages')
+                    <i class="fa fa-envelope-o"></i> {{__('auth.app.messages')}}
                     <span class="badge badge-success">42</span>
                 </a>
                 <div class="dropdown-header text-center">
-                    <strong>@lang('auth.app.settings')</strong>
+                    <strong>{{__('auth.app.settings')}}</strong>
                 </div>
                 <a class="dropdown-item" href="#">
-                    <i class="fa fa-user"></i> @lang('auth.app.profile')</a>
+                    <i class="fa fa-user"></i> {{__('auth.app.profile')}}</a>
                 <a class="dropdown-item" href="#">
-                    <i class="fa fa-wrench"></i> @lang('auth.app.settings')</a>
+                    <i class="fa fa-wrench"></i>{{__('auth.app.settings')}}</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
-                    <i class="fa fa-shield"></i> @lang('auth.app.lock_account')</a>
+                    <i class="fa fa-shield"></i> {{__('auth.app.lock_account')}}</a>
                 <a class="dropdown-item" href="{{ url('/logout') }}" class="btn btn-default btn-flat"
                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                    <i class="fa fa-lock"></i>@lang('auth.sign_out')
+                    <i class="fa fa-lock"></i>{{__('auth.sign_out')}}
                 </a>
                 <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
                     @csrf
