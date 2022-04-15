@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>>{{__('auth.registration.title')}} | CoreUI | {{ config('app.name') }}</title>
-    <meta name="description" content="CoreUI Template - Hublinkaz Laravel Generator">
-    <meta name="keyword" content="CoreUI,Bootstrap,Admin,Template,Hublinkaz,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+    <title>>{{__('auth.registration.title')}} | HubCraft | {{ config('app.name') }}</title>
+    <meta name="description" content="HubCraft Template - Hublink.az Laravel Generator">
+    <meta name="keyword" content="Hublinkaz">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coreui/coreui@2.1.16/dist/css/coreui.min.css">
