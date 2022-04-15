@@ -27,9 +27,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
-        <img class="navbar-brand-full" src="https://assets.infyom.com/logo/blue_logo_150x150.png" width="30" height="30"
+        <img class="navbar-brand-full" src="https://assets.Hublinkaz.com/logo/blue_logo_150x150.png" width="30" height="30"
              alt="Hublinkaz Logo">
-        <img class="navbar-brand-minimized" src="https://assets.infyom.com/logo/blue_logo_150x150.png" width="30"
+        <img class="navbar-brand-minimized" src="https://assets.Hublinkaz.com/logo/blue_logo_150x150.png" width="30"
              height="30" alt="Hublinkaz Logo">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
@@ -86,8 +86,8 @@
 </div>
 <footer class="app-footer">
     <div>
-        <a href="https://infyom.com">Hublinkaz </a>
-        <span>&copy; {{date("Y")}} InfyOmLabs.</span>
+        <a href="https://Hublinkaz.com">Hublinkaz </a>
+        <span>&copy; {{date("Y")}} HublinkazLabs.</span>
     </div>
     <div class="ml-auto">
         <span>Powered by</span>
