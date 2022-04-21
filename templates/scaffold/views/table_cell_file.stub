@@ -1,1 +1,1 @@
-<td><img src="{{ GetImage(class_basename($$MODEL_NAME_CAMEL$), $$MODEL_NAME_CAMEL$->id,'$FIELD_NAME$'[0] }}" height="50px" alt=""></td>
+<td><img src="{{ GetImage(class_basename($$MODEL_NAME_CAMEL$), $$MODEL_NAME_CAMEL$->id,'$FIELD_NAME$')[0] }}" height="50px" alt=""></td>

@@ -10,7 +10,7 @@
 
 
 
-@if (isset(GetImage(class_basename(isset($$MODEL_NAME_CAMEL$)), isset($$MODEL_NAME_CAMEL$->id,'$FIELD_NAME$'))[0]))
+@if (isset(GetImage(class_basename(isset($$MODEL_NAME_CAMEL$)), isset($$MODEL_NAME_CAMEL$->id),'$FIELD_NAME$')[0]))
 
     <p>Əvvəlki</p>
 
